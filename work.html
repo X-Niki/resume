@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="header-wrapper">
+                <div class="hamburger" onclick="toggleMenu()">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+                <ul class="menu" id="menu">
+                    <li><a href="work.html">Works</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <section class="section-works">
+        <div class="container container-work">
+            <div class="section-works-wrapper">
+                <div class="title-works">
+                    <h3>Work</h3>
+                </div>
+                <div class="works-list-item">
+                    <div class="left-edge">
+                        <div class="works-img">
+                            <img src="img/poster.jpg" alt="Photo of the Designing Dashboards project">
+                        </div>
+                    </div>
+                    <div class="works">
+                        <h3><a href="work-inner.html">Designing Dashboards</a></h3>
+                        <div class="works-date-item">
+                            <h5 class="works-date">2020</h5>
+                            <h4 class="works-type">Dashboard</h4>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat
+                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+                <div class="line-h"></div>
+                <div class="works-list-item">
+                    <div class="left-edge">
+                        <div class="works-img">
+                            <img src="img/poster2.jpg" alt="Photo of the Vibrant Portraits project">
+                        </div>
+                    </div>
+                    <div class="works">
+                        <h3><a href="work-inner.html">Vibrant Portraits of 2020</a></h3>
+                        <div class="works-date-item">
+                            <h5 class="works-date">2018</h5>
+                            <h4 class="works-type">Illustration</h4>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat
+                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+                <div class="line-h"></div>
+                <div class="works-list-item">
+                    <div class="left-edge">
+                        <div class="works-img">
+                            <img src="img/poster3.jpg" alt="Photo of the 36 Days of Malayalam type project">
+                        </div>
+                    </div>
+                    <div class="works">
+                        <h3><a href="work-inner.html">36 Days of Malayalam type</a></h3>
+                        <div class="works-date-item">
+                            <h5 class="works-date">2018</h5>
+                            <h4 class="works-type">Typography</h4>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat
+                            duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+                <div class="line-h"></div>
+                <div class="works-list-item">
+                    <div class="left-edge">
+                        <div class="works-img">
+                            <img src="img/poster.4.png" alt="booking schedule">
+                        </div>
+                    </div>
+                    <div class="works">
+                        <h3><a href="work-inner.html">Components</a></h3>
+                        <div class="works-date-item">
+                            <h5 class="works-date">2018</h5>
+                            <h4 class="works-type">Components, Design</h4>
+                        </div>
+                        <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                            consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    </div>
+                </div>
+                <div class="line-h"></div>
+            </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-social">
+                <a href="#"><img src="img/facebook.svg" alt="Facebook Logo"></a>
+                <a href="#"><img src="img/instagram.svg" alt="Instagram Logo"></a>
+                <a href="#"><img src="img/Twitter.svg" alt="Twitter Logo"></a>
+                <a href="#"><img src="img/Linkedin.svg" alt="Linkedin Logo"></a>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &copy;2020 All rights reserved</p>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function toggleMenu() {
+            var menu = document.getElementById('menu');
+            var hamburger = document.querySelector('.hamburger');
+            var content = document.getElementById('content');
+            menu.classList.toggle('active');
+            hamburger.classList.toggle('active');
+            content.classList.toggle('shifted');
+        } 
+    </script>
+
+</body>
+
+</html>
